@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B1140B2B1FC9B774002370D6 /* SignPDFObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B1140B2A1FC9B774002370D6 /* SignPDFObject.m */; };
 		B19FAEC11FBEDB65000EB61B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B19FAEC01FBEDB65000EB61B /* AppDelegate.m */; };
 		B19FAEC41FBEDB65000EB61B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19FAEC31FBEDB65000EB61B /* ViewController.m */; };
 		B19FAEC71FBEDB65000EB61B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19FAEC51FBEDB65000EB61B /* Main.storyboard */; };
@@ -18,8 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B1140B291FC9B774002370D6 /* SignPDFObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignPDFObject.h; sourceTree = "<group>"; };
-		B1140B2A1FC9B774002370D6 /* SignPDFObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignPDFObject.m; sourceTree = "<group>"; };
 		B19FAEBC1FBEDB65000EB61B /* PDF解析.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PDF解析.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19FAEBF1FBEDB65000EB61B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B19FAEC01FBEDB65000EB61B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,8 +65,6 @@
 				B19FAEC01FBEDB65000EB61B /* AppDelegate.m */,
 				B19FAEC21FBEDB65000EB61B /* ViewController.h */,
 				B19FAEC31FBEDB65000EB61B /* ViewController.m */,
-				B1140B291FC9B774002370D6 /* SignPDFObject.h */,
-				B1140B2A1FC9B774002370D6 /* SignPDFObject.m */,
 				B19FAEFB1FC2AE87000EB61B /* ParsePDFObject.h */,
 				B19FAEFC1FC2AE87000EB61B /* ParsePDFObject.m */,
 				B19FAEC51FBEDB65000EB61B /* Main.storyboard */,
@@ -154,7 +149,6 @@
 			files = (
 				B19FAEC41FBEDB65000EB61B /* ViewController.m in Sources */,
 				B19FAECF1FBEDB65000EB61B /* main.m in Sources */,
-				B1140B2B1FC9B774002370D6 /* SignPDFObject.m in Sources */,
 				B19FAEC11FBEDB65000EB61B /* AppDelegate.m in Sources */,
 				B19FAEFD1FC2AE87000EB61B /* ParsePDFObject.m in Sources */,
 			);

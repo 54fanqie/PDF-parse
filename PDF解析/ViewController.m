@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "ParsePDFObject.h"
-#import "SignPDFObject.h"
 id selfClass;
 
 @interface ViewController ()
@@ -20,21 +19,7 @@ id selfClass;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSData * data = [NSData dataWithContentsOfFile:@"/Users/fanqie/Desktop/test.pdf"];
-    
-    _auxInfo = [NSMutableDictionary dictionary];
-    
-    CGPDFDocumentRef myDocument;
-    CFStringRef path = CFStringCreateWithCString(NULL, [@"/Users/fanqie/Desktop/PDF文件/hello.pdf" UTF8String], kCFStringEncodingUTF8);
-    NSLog(@"path:%@", path);
-    CFURLRef url = CFURLCreateWithFileSystemPath (NULL, path, kCFURLPOSIXPathStyle, 0);
-    NSLog(@"url:%@", url);
-    CFRelease (path);
-    
-    myDocument = CGPDFDocumentCreateWithURL(url);
-    [SignPDFObject  setP7InPD];
-//    [self extractPDFDictionary:myDocument];
-//    [self jiexiPDF];
+
     ParsePDFObject * pf = [[ParsePDFObject alloc]init];
     [pf parsePDFAction:@"/Users/fanqie/Desktop/加密文档.pdf" complete:^(NSData * byte) {
         NSLog(@"---------------------------------%@,%ld",[ViewController hexStringWithData:byte],byte.length);
